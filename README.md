@@ -1,11 +1,10 @@
 # Pacuare
 
-**TODO: Add description**
+An Elixir client for the Pacuare SDK.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pacuare_sdk` to your list of dependencies in `mix.exs`:
+This package can be installed by adding `pacuare_sdk` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +14,4 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/pacuare_sdk>.
-
+Documentation can be found at <https://hexdocs.pm/pacuare_sdk>.
