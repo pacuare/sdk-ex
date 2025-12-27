@@ -30,7 +30,7 @@ defmodule Pacuare do
     %Pacuare{req: req} = client
 
     {:ok, resp} = Req.post(req, url: "/query", json: %{query: sql, params: params})
-    res = %Pacuare.Result{columns: resp.data["columns"], values: resp.data["values"]}
+    res = %Pacuare.Result{columns: resp.body["columns"], values: resp.body["values"]}
     {:ok, Explorer.DataFrame.new(res)}
   end
 end
